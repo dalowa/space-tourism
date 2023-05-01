@@ -4,6 +4,7 @@ import data from "@/data/data";
 import { Data } from "@/interfaces/Data";
 import styles from "./../styles/Home.module.css";
 import NavBar from "@/components/NavBar/NavBar";
+import Link from "next/link";
 
 export default function Home() {
   let [test, setTest] = useState<Data>();
@@ -26,7 +27,9 @@ export default function Home() {
           </p>
         </div>
 
-        <button className={styles.Button}>EXPLORE</button>
+        <Link href="/destination" className={styles.Button}>
+          EXPLORE
+        </Link>
       </div>
     </>
   );
