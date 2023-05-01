@@ -8,3 +8,8 @@
     --font-bellefair: 'Bellefair', serif;
     --font-barlow: 'Barlow Condensed', sans;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}

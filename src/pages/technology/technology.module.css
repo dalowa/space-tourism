@@ -1,0 +1,20 @@
+.Technology {
+    background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/technology/background-technology-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width: 768px){
+    .Technology {
+        background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/technology/background-technology-tablet.jpg);
+    }
+    
+}
+
+@media (min-width: 990px){
+    .Technology {
+        background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/technology/background-technology-desktop.jpg);
+    }
+}

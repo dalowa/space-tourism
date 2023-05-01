@@ -1,0 +1,32 @@
+.Destination {
+    background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/destination/background-destination-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    padding: 2em 0 0.5em 0;
+}
+
+@media (min-width: 768px){
+    
+    .Destination {
+        justify-content: center;
+        padding: 2em 0 4em 0;
+        background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/destination/background-destination-tablet.jpg);
+    }
+    
+}
+
+@media (min-width: 990px){
+    .Destination {
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-around;
+        background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/destination/background-destination-desktop.jpg);
+    }
+}

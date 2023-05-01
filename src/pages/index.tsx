@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <div className={styles.Home}>
-        <NavBar />
+        <NavBar currentSection="HOME" />
         <div className={styles.Container}>
           <h2 className={styles.Heading2}>SO, YOU WANT TO TRAVEL TO</h2>
           <h1 className={styles.Heading1}>SPACE</h1>

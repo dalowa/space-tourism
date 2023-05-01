@@ -1,0 +1,20 @@
+.Crew {
+    background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/crew/background-crew-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width: 768px){
+    .Crew {
+        background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/crew/background-crew-tablet.jpg);
+    }
+    
+}
+
+@media (min-width: 990px){
+    .Crew {
+        background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/crew/background-crew-desktop.jpg);
+    }
+}
