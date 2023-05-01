@@ -48,6 +48,8 @@
   cursor: pointer;
   transition: all ease-in-out 0.25s;
   background-color: var(--white);
+  color: black;
+  text-decoration: none;
 }
 
 .Button:hover {
