@@ -5,7 +5,7 @@ export default function Crew() {
   return (
     <>
       <section className={styles.Crew}>
-        <NavBar />
+        <NavBar currentSection="CREW" />
       </section>
     </>
   );

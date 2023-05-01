@@ -5,7 +5,7 @@ export default function Technology() {
   return (
     <>
       <section className={styles.Technology}>
-        <NavBar />
+        <NavBar currentSection="TECHNOLOGY" />
       </section>
     </>
   );
