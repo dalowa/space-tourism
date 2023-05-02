@@ -48,7 +48,7 @@ const data:Data = {
       {
         name: "Douglas Hurley",
         images: {
-          png: "./assets/crew/image-douglas-hurley.png",
+          png: "https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/crew/image-douglas-hurley.png",
           webp: "./assets/crew/image-douglas-hurley.webp"
         },
         role: "Commander",
@@ -57,7 +57,7 @@ const data:Data = {
       {
         name: "Mark Shuttleworth",
         images: {
-          png: "./assets/crew/image-mark-shuttleworth.png",
+          png: "https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/crew/image-mark-shuttleworth.png",
           webp: "./assets/crew/image-mark-shuttleworth.webp"
         },
         role: "Mission Specialist",
@@ -66,7 +66,7 @@ const data:Data = {
       {
         name: "Victor Glover",
         images: {
-          png: "./assets/crew/image-victor-glover.png",
+          png: "https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/crew/image-victor-glover.png",
           webp: "./assets/crew/image-victor-glover.webp"
         },
         role: "Pilot",
@@ -75,7 +75,7 @@ const data:Data = {
       {
         name: "Anousheh Ansari",
         images: {
-          png: "./assets/crew/image-anousheh-ansari.png",
+          png: "https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/crew/image-anousheh-ansari.png",
           webp: "./assets/crew/image-anousheh-ansari.webp"
         },
         role: "Flight Engineer",

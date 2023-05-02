@@ -4,7 +4,7 @@ export interface PickYDestination {
     planetInfo: string;
     avgDistance: string;
     travelTime: string;
-    changePlanet: (name: string) => void
+    seteador: any
 }
 
 export type PlanetNames = "Moon" | "Mars" | "Titan" | "Europe"

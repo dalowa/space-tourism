@@ -3,6 +3,7 @@ import { useState } from "react";
 import data from "@/data/data";
 import Image from "next/image";
 import styles from "./PickDestination.module.css";
+import changeCurrent from "@/functions/changeCurrent";
 
 export default function PickDestination({
   planetImage,
@@ -10,7 +11,7 @@ export default function PickDestination({
   planetInfo,
   avgDistance,
   travelTime,
-  changePlanet,
+  seteador,
 }: PickYDestination) {
   return (
     <>
@@ -25,7 +26,13 @@ export default function PickDestination({
           {data.destinations.map((e) => (
             <li
               key={e.name}
-              onClick={() => changePlanet(e.name)}
+              onClick={() =>
+                changeCurrent(
+                  e.name,
+                  data.destinations.map((e) => e.name),
+                  seteador
+                )
+              }
               className={
                 e.name.toLocaleUpperCase() == planetName
                   ? `${styles.currentPlanet}`

@@ -4,11 +4,19 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    color: var(--white);
+    font-family: var(--font-bellefair);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0em;
 }
 
 @media (min-width: 768px){
     .Crew {
         background-image: url(https://raw.githubusercontent.com/dalowa/space-tourism/main/src/assets/crew/background-crew-tablet.jpg);
+        justify-content: flex-end;
     }
     
 }
