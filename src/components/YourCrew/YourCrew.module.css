@@ -156,8 +156,9 @@
 
 @media (min-width: 990px){
     .heading {
-        width: 80%;
-        font-size: 2.5em;
+        width: 75%;
+        font-size: 1.75em;
+        margin-bottom: 1em;
     }
 
     .Container1 {
@@ -168,7 +169,7 @@
     }
     .Container2 {
         align-items: flex-start;
-        gap: 8em;
+        gap: 5em;
     }
     .Container3 {
         align-items: flex-start;
@@ -183,23 +184,23 @@
     }
 
     .Container3 h1 {
-        font-size: 4em;
+        font-size: 2em;
     }
 
     .Container3 h3 {
-        font-size: 5em;
+        font-size: 2.5em;
     }
 
     .Container3 p {
         padding: 1em 0;
         text-align: start;
-        font-size: 2.5em;
-        max-width: 850px;
+        font-size: 1.75em;
+        max-width: 550px;
     }
 
     .imagePerson {
         justify-content: flex-start;
-        width: 35vw;    
-        height: 65vh;
+        width: 30vw;    
+        height: 60vh;
     }
 }

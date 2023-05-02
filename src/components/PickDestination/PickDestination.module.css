@@ -124,8 +124,8 @@
     }
 
     .planetImage {
-        width: 27.5em;
-        height: 27.5em;
+        width: 22.5em;
+        height: 22.5em;
         margin: 1em 0;
     }
 
@@ -179,24 +179,24 @@
 
     .Container1 h2 {
         width: 100%;
-        font-size: 2.5em;
+        font-size: 2em;
         letter-spacing: 0.15em;
         margin: 3em 0 2em 0;
     }
 
     .planetImage {
-        margin-left: 7.5em;
-        width: 40em;
-        height: 40em;
+        
+        width: 27.5em;
+        height: 27.5em;
     }
 
     /* ---------------- */
 
     .Container2{
-        margin-top: 10em;
-        margin-right: 15em;
+        height: 50vh;
         align-items: flex-start;
-        gap: 1em;
+        gap: 0;
+        justify-content:space-between;
     }
 
     .Container2 ul {
@@ -204,16 +204,16 @@
     }
 
     .Container2 ul li {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .Container2 h1 {
-        font-size: 9em;
+        font-size: 6em;
     }
 
     .PlanetInfo {
-        max-width: 800px;
-        font-size: 2.5em;
+        max-width: 550px;
+        font-size: 1.5em;
         text-align: start;
     }
 
