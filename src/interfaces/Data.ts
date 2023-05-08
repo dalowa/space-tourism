@@ -28,6 +28,7 @@ export interface Technology {
     name:        string;
     images:      TechnologyImages;
     description: string;
+    seteador?: any;
 }
 
 export interface TechnologyImages {
