@@ -258,6 +258,7 @@
         position: fixed;
         background-color: #ffffff0D;
         color: var(--white);
+        /* Mas comentario */
         margin: 0;
         flex-direction: row;
         list-style: none;
